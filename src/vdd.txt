@@ -1,4 +1,4 @@
 ansible;2.4.7.0-1.el7.ans
 gap-vim;4.11.0-2.fc32
-test_pkg;1.2.3-2322
+vdd_test_pkg;1.5.7-2322
 gvm-libs;11.0.0-13441.fc32.art
