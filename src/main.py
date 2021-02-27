@@ -31,14 +31,16 @@ if __name__ == "__main__":
     # Get scm db configuration into dictionary
     pkg_dict = scm_db.get_scm_db_conf(project, platform, cms_version)
     
+    
     # Get nexus configuration into dictionary
     pkg_dict = nexus.get_nexus_conf(project, platform, cms_version, pkg_dict)
 
     # Get target platform configuration into dictionary
-    pkg_dict = target.get_target_conf(pkg_dict)
+    if check_type == 'target' or check_type == 'vdd':
+        pkg_dict = target.get_target_conf(pkg_dict)
     
     # Get vdd configuration into dictionary
     if check_type == 'vdd':
         pkg_dict = vdd.get_vdd_conf(pkg_dict)
-    
+        
     reporter.test_result_writer(pkg_dict, project, platform, cms_version,check_type)

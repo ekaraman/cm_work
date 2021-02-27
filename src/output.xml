@@ -1,62 +1,48 @@
 <?xml version="1.0" ?>
 <testsuites disabled="0" errors="0" failures="14" tests="15" time="0.0">
 	<testsuite disabled="0" errors="0" failures="14" name="Configuration Reporter" skipped="0" tests="15" time="0">
-		<testcase name="atomic-release" status="NOT OK">
-			<failure message="SCM DB Version =  1.0-21.fc32.art 
-Nexus Version =  1.0-21.fc32.art Target Version = None VDD Version = None" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="atomic-release" status="NOT OK">
+			<failure message="SCM DB Version =  1.0-21.fc32.art Nexus Version =  1.0-21.fc32.art Target Version = None VDD Version = None" type="failure"/>
 		</testcase>
-		<testcase name="gvm-libs" status="OK"/>
-		<testcase name="openvas-scanner" status="NOT OK">
-			<failure message="SCM DB Version =  7.0.1-13844.fc32.art 
-Nexus Version =  7.0.1-13844.fc32.art Target Version = None VDD Version = None" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="gvm-libs" status="OK"/>
+		<testcase classname="test.platform.0-0-0-1" name="openvas-scanner" status="NOT OK">
+			<failure message="SCM DB Version =  7.0.1-13844.fc32.art Nexus Version =  7.0.1-13844.fc32.art Target Version = None VDD Version = None" type="failure"/>
 		</testcase>
-		<testcase name="ansible" status="NOT OK">
-			<failure message="SCM DB Version =  2.4.6.0-1.el7.ans 
-Nexus Version =  2.9.6-1.fc32 Target Version = 2.4.7.0-1.el7.ans VDD Version = 2.4.7.0-1.el7.ans" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="ansible" status="NOT OK">
+			<failure message="SCM DB Version =  2.4.6.0-1.el7.ans Nexus Version =  2.9.6-1.fc32 Target Version = 2.4.7.0-1.el7.ans VDD Version = 2.4.7.0-1.el7.ans" type="failure"/>
 		</testcase>
-		<testcase name="notmuch-vim" status="NOT OK">
-			<failure message="SCM DB Version =  None 
-Nexus Version =  0.29.3-3.fc32 Target Version = None VDD Version = None" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="notmuch-vim" status="NOT OK">
+			<failure message="SCM DB Version =  None Nexus Version =  0.29.3-3.fc32 Target Version = None VDD Version = None" type="failure"/>
 		</testcase>
-		<testcase name="espeak-ng-vim" status="NOT OK">
-			<failure message="SCM DB Version =  None 
-Nexus Version =  1.50-2.fc32 Target Version = None VDD Version = None" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="espeak-ng-vim" status="NOT OK">
+			<failure message="SCM DB Version =  None Nexus Version =  1.50-2.fc32 Target Version = None VDD Version = None" type="failure"/>
 		</testcase>
-		<testcase name="perl-Text-VimColor" status="NOT OK">
-			<failure message="SCM DB Version =  None 
-Nexus Version =  0.29-5.fc32 Target Version = None VDD Version = None" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="perl-Text-VimColor" status="NOT OK">
+			<failure message="SCM DB Version =  None Nexus Version =  0.29-5.fc32 Target Version = None VDD Version = None" type="failure"/>
 		</testcase>
-		<testcase name="geany-plugins-vimode" status="NOT OK">
-			<failure message="SCM DB Version =  None 
-Nexus Version =  1.36-2.fc32 Target Version = None VDD Version = None" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="geany-plugins-vimode" status="NOT OK">
+			<failure message="SCM DB Version =  None Nexus Version =  1.36-2.fc32 Target Version = None VDD Version = None" type="failure"/>
 		</testcase>
-		<testcase name="boxes-vim" status="NOT OK">
-			<failure message="SCM DB Version =  None 
-Nexus Version =  1.3-3.fc32 Target Version = None VDD Version = None" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="boxes-vim" status="NOT OK">
+			<failure message="SCM DB Version =  None Nexus Version =  1.3-3.fc32 Target Version = None VDD Version = None" type="failure"/>
 		</testcase>
-		<testcase name="neovim" status="NOT OK">
-			<failure message="SCM DB Version =  None 
-Nexus Version =  0.4.3-5.fc32 Target Version = None VDD Version = None" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="neovim" status="NOT OK">
+			<failure message="SCM DB Version =  None Nexus Version =  0.4.3-5.fc32 Target Version = None VDD Version = None" type="failure"/>
 		</testcase>
-		<testcase name="gap-vim" status="NOT OK">
-			<failure message="SCM DB Version =  None 
-Nexus Version =  4.11.0-2.fc32 Target Version = 4.11.0-2.fc32 VDD Version = 4.11.0-2.fc32" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="gap-vim" status="NOT OK">
+			<failure message="SCM DB Version =  None Nexus Version =  4.11.0-2.fc32 Target Version = 4.11.0-2.fc32 VDD Version = 4.11.0-2.fc32" type="failure"/>
 		</testcase>
-		<testcase name="ocaml-sexplib-vim" status="NOT OK">
-			<failure message="SCM DB Version =  None 
-Nexus Version =  0.13.0-6.fc32.1 Target Version = None VDD Version = None" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="ocaml-sexplib-vim" status="NOT OK">
+			<failure message="SCM DB Version =  None Nexus Version =  0.13.0-6.fc32.1 Target Version = None VDD Version = None" type="failure"/>
 		</testcase>
-		<testcase name="fluxbox-vim-syntax" status="NOT OK">
-			<failure message="SCM DB Version =  None 
-Nexus Version =  1.3.7-12.fc32 Target Version = None VDD Version = None" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="fluxbox-vim-syntax" status="NOT OK">
+			<failure message="SCM DB Version =  None Nexus Version =  1.3.7-12.fc32 Target Version = None VDD Version = None" type="failure"/>
 		</testcase>
-		<testcase name="test_pkg" status="NOT OK">
-			<failure message="SCM DB Version =  None 
-Nexus Version =  None Target Version = 1.2.3-2322 VDD Version = None" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="test_pkg" status="NOT OK">
+			<failure message="SCM DB Version =  None Nexus Version =  None Target Version = 1.2.3-2322 VDD Version = None" type="failure"/>
 		</testcase>
-		<testcase name="vdd_test_pkg" status="NOT OK">
-			<failure message="SCM DB Version =  None 
-Nexus Version =  None Target Version = None VDD Version = 1.5.7-2322" type="failure"/>
+		<testcase classname="test.platform.0-0-0-1" name="vdd_test_pkg" status="NOT OK">
+			<failure message="SCM DB Version =  None Nexus Version =  None Target Version = None VDD Version = 1.5.7-2322" type="failure"/>
 		</testcase>
 	</testsuite>
 </testsuites>
